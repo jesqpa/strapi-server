@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clients",
+  "info": {
+    "singularName": "client",
+    "pluralName": "clients",
+    "displayName": "Client",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "maxLength": 40
+    },
+    "contactos": {
+      "displayName": "contactos",
+      "type": "component",
+      "repeatable": true,
+      "component": "contact.contactos"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_contact_contactos",
+  "info": {
+    "displayName": "contactos",
+    "icon": "shield"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}
